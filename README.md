@@ -1,8 +1,8 @@
 # Sample Azure Functions DevOps
 
-- Run `deploy\1_Setup.ps1`
+- Run [1_Setup.ps1](https://github.com/jomit/functiontrials/blob/master/survey/deploy/1_Setup.ps1)
 
-- Run `deploy\2_Deploy.ps1`
+- Run [2_Deploy.ps1](https://github.com/jomit/functiontrials/blob/master/survey/deploy/2_Deploy.ps1)
 
 # Additional Resources
 
