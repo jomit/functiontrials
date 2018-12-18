@@ -3,7 +3,7 @@ module.exports = async function (context, req) {
 
     if (req.query.name || (req.body && req.body.name)) {
         context.res = {
-            body: "Happy => " + (req.query.name || req.body.name)
+            body: "Merry Christmas, Ho Ho Ho => " + (req.query.name || req.body.name)
         };
     }
     else {
