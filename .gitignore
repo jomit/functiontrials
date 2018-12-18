@@ -1,11 +1,9 @@
-
 bin
 obj
 csx
 .vs
 edge
 Publish
-.vscode
 
 *.user
 *.suo
@@ -15,6 +13,7 @@ project.lock.json
 
 /packages
 /TestResults
+*.zip
 
 /tools/NuGet.exe
 /App_Data
@@ -23,3 +22,5 @@ project.lock.json
 .secrets
 appsettings.json
 local.settings.json
+
+node_modules

@@ -1,26 +1,22 @@
-# Azure Functions
-Azure Functions Sample Code
+# Sample Azure Functions DevOps
 
-#Prereq
-https://www.npmjs.com/package/azure-functions-core-tools
+- Run `deploy\1_Setup.ps1`
 
-# Commands
-    func init .
+- Run `deploy\2_Deploy.ps1`
 
-    func azure login
+# Additional Resources
 
-    func azure account set <subscription id>
-
-    func new <function name>
-
-    # Update the local.settings.json file with storage and eventhub connections strings.
-    # Make ure these settings are in the App Settings of the function app in Azure
-    # Update the connection keys in the function.json file inside the function folder
-
-    func host start --debug vscode
-
-    func azure functionapp publish jomitfunctions
-
-
-
-
+- Function Best practices & patterns 
+    - https://docs.microsoft.com/en-us/azure/azure-functions/functions-best-practices
+	- https://docs.microsoft.com/en-us/azure/azure-functions/manage-connections
+	- https://docs.microsoft.com/en-us/azure/architecture/antipatterns/improper-instantiation/
+	- https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale
+- Functions Developer Guide
+	- https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference
+- Functions ARM Deployment
+	- https://docs.microsoft.com/en-us/azure/azure-functions/functions-infrastructure-as-code
+- App Service Best practices
+	- https://docs.microsoft.com/en-us/azure/app-service/app-service-best-practices
+- Samples
+	- https://github.com/Azure-Samples/Serverless-Eventing-Platform-for-Microservices
+	- https://github.com/mathieu-benoit/dot-net-on-azure-function-app
